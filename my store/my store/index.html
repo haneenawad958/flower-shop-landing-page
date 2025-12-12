@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BloomBox - Fresh Flowers</title>
+  <link rel="stylesheet" href="css/stylesheet.css.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">🌸 BloomBox</div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#offers">Offers</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Welcome to BloomBox</h1>
+    <p>Discover elegant fresh flowers with beautiful arrangements for every occasion.</p>
+    <button>Shop Now</button>
+  </section>
+
+  <section class="products" id="products">
+    <h2>Featured Products</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="images/Classic Red Bouquet.jpg" alt="Classic Red Bouquet" />
+        <h3>Classic Red Bouquet</h3>
+        <p>$12.99</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/sunflowers.jpg" alt="Sunflowers Smile" />
+        <h3>Sunflowers Smile</h3>
+        <p>$9.50</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/Colorful Tulips.jpg" alt="Colorful Tulips" />
+        <h3>Colorful Tulips</h3>
+        <p>$14.25</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/White Elegance.jpg" alt="White Elegance" />
+        <h3>White Elegance</h3>
+        <p>$11.00</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/Lavender Love.jpg" alt="Lavender Love" />
+        <h3>Lavender Love</h3>
+        <p>$13.50</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+      <div class="product-card">
+        <img src="images/Rose Garden.jpg" alt="Rose Garden" />
+        <h3>Rose Garden</h3>
+        <p>$15.99</p>
+        <button onclick="addToCart()">Add to Cart</button>
+      </div>
+    </div>
+    <div class="show-more">
+      <button>Show More Products</button>
+    </div>
+  </section>
+
+  <section class="offers" id="offers">
+    <h2>Special Holiday Offers!</h2>
+    <p>Don't miss out on our amazing floral deals this season</p>
+    <button>View Details</button>
+  </section>
+
+  <section class="categories">
+    <h2>Shop by Category</h2>
+    <div class="category-grid">
+      <div class="category-card">
+        <img src="images/bouquets.jpg" alt="Bouquets">
+        <h3>Bouquets</h3>
+        <p>Beautifully arranged fresh bouquets for any occasion</p>
+      </div>
+      
+      <div class="category-card">
+        <img src="images/occasions.jpg" alt="occasions">
+        <h3>Occasions</h3>
+        <p>Flowers for birthdays, anniversaries, and more</p>
+      </div>
+      <div class="category-card">
+        <img src="images/exotic.jpg" alt="exotic">
+        <h3>Exotic Flowers</h3>
+        <p>Rare and vibrant flower collections</p>
+      </div>
+    </div>
+  </section>
+
+  <footer id="contact">
+    <div class="footer-grid">
+      <div>
+        <h4>Contact Info</h4>
+        <p>📧 info@bloombox.com</p>
+        <p>📍 Gaza City</p>
+        <p>📞 +970 599 000 000</p>
+      </div>
+      <div>
+        <h4>Customer Service</h4>
+        <p>Help Center</p>
+        <p>Returns & Exchanges</p>
+        <p>Shipping Info</p>
+      </div>
+      <div>
+        <h4>About BloomBox</h4>
+        <p>Our Story</p>
+        <p>Careers</p>
+        <p>Press</p>
+      </div>
+      <div>
+        <h4>Newsletter</h4>
+        <input type="email" placeholder="Enter your email" />
+        <button>Subscribe</button>
+      </div>
+    </div>
+    <p class="copyright">© 2025 BloomBox. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function addToCart() {
+      alert("Product added to cart!");
+    }
+  </script>
+</body>
+</html>
